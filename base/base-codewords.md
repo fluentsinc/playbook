@@ -16,7 +16,7 @@ ___
 
 ### `Space-[Time]` => `Timeout-1700`
 
-### `[Time]` = Current time in 24 hour format. 
+### `[Time]` - Current time in 24 hour format. 
 
 ### Here, [Time] is the variable predefined filler word here that you need to change to your current time in 24 hour format. `Space` is the constant code word inside the variable code word `Space-[Time]`. 
 
@@ -30,7 +30,12 @@ ___
 
 ## **Constant Code Words**
 
-### `Rookie-X` => refers to the `rookie-experiments` repository at https://github.com/fluentsinc/rookie-experiments
+### `Rookie-X` => https://github.com/fluentsinc/rookie-experiments
+
+### `Pro-X` => https://github.com/fluentsinc/prometheus-experiments
+
+
+
 
 
 

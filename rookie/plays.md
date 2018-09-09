@@ -2,9 +2,20 @@
 ___
 ___
 
-## **rookie-alert**
+### **rookie-standstill**
 
-### "rookie-alert" play wants you to _**stick with**_ `playbook/rookie` and refer plays/playcalls in `playbook/rookie` only. When you're called this play, you shouldn't execute any plays or play calls outside `playbook/rookie` until you're assigned the "break" play. 
+### When you're assigned the "rookie-standstill" play, you should stop using `playbook/rookie` and `fluentsinc/rookie-experiments`.  
+___
+
+### **rookie-git**
+
+### "rookie-git" play tells you to refer `rookie-experiments/git` folder, not the `prometheus-experiments/git` folder to execute Git plays. 
+
+___
+
+### **rookie-pilot-all**
+
+### When you're assigned this play, you need to go through all the pilots of a technology in the `rookie-experiments`. This play is always called after a technology that you need to go through. 
 
 ___
 

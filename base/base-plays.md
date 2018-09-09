@@ -4,9 +4,8 @@ ___
 
 ### **rookie-play** 
 
-### "rookie" play tells you that you need to follow `playbook/rookie` and `fluentsinc/rookie-experiments` carefully. Since you're a rookie and have not mastered `prometheus-experiments/git` experiments, you need to follow `playbook/rookie` focusedly because a simple lack of attention to detail on your part can and will jeopardize the whole team's progress. So you will be cautious and attentive when you get this play. 
-
-___
+### "rookie" play tells you that you need to follow `playbook/rookie` and `fluentsinc/rookie-experiments` carefully. Since you're a rookie and have not mastered `prometheus-experiments/git` experiments, you need to follow `playbook/rookie` focusedly because a simple lack of attention to detail on your part can and will jeopardize the whole team's progress. So you will need to be cautious and attentive when you get this play. 
+___ 
 
 ### **huddle |experiments-repository-name|**  
 
@@ -16,6 +15,13 @@ ___
 
 ###  For example, `huddle |Rookie-X|` means "rookie-experiments" should be the experiment repository you need to refer to perform your assignment. Every play call will be based on "rookie-experiments". 
 
+___
+
+### **pilot |number|**
+
+### "pilot" play followed by two vertical bars (||) tells you to execute the below linear steps:
+
+### 1. When you get a "pilot" play, you need to go look at the pilot of the "experiments-repository" mentioned somewhere in the play call. The "experiments" repository could've been mentioned in earlier play calls. 
 ___
 
 ### **ready**  
@@ -29,6 +35,10 @@ ___
 ### 3. `vs-code space |rookie-x| name->self`
 ___
 
-### **break**
+### **standstill**
+
+### "standstill" play tells you to halt the
+
+
 
 
