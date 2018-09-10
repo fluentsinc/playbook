@@ -9,7 +9,7 @@ ___
 
 ### **huddle |experiments-repository-name|**  
 
-### "huddle" play followed by two vertical bars (||) tells you to execute the below linear steps:
+### "huddle" play followed by two vertical bars ( || ) tells you to execute the below linear steps:
 
 ### 1.  When you get a "huddle" play, every play call you get assigned will be based on the "experiments repository" inside the vertical bars(||). You preferably would constantly refer the "experiment repository" to execute any play calls you might get.  
 

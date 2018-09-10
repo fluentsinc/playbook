@@ -20,7 +20,7 @@ ___
 
 ### Go through the **common descriptions** section carefully since a very good understanding of these basic descriptions is needed to understand the playbook.  
 
-### The code words in `base` folder are applicable to every other folder. 
+### The code words in `base` folder are applicable to every other technology. 
 
 ## **Common Descriptions**
 
@@ -34,7 +34,7 @@ ___
 
 ### **play call** 
 
-### a play call refers to group of plays put together in a sentence. For example, `call team |java| asap` is a play call which contains three plays in it. You need to perform the play call as defined in the playbook. The individual plays might be executed differently when called in a play call so don't assume you can just execute the plays to complete the play call. 
+### a play call refers to group of plays put together in a sentence. For example, `call team |java| asap` is a play call which contains three plays in it. You need to perform the play call as defined in the playbook. The individual plays might be executed differently when called in a play call so don't assume you can just execute the plays to complete the play call. Always refer the `playcalls.md` file in each technology to see the complete definition and sequence for a play call.  
 
 ### a play call could also refer to multiple lines of play calls. In a multi-line play call, the play calls follow a predefined sequence which you should always follow. For example, when we call "call all teams asap" multi-line play call, you need to execute all the play calls defined for that multi-line play call in the order that it appears. Look at the play calls defined for `call all teams asap` multi-line play call:
 
@@ -53,9 +53,13 @@ call team rookie asap
 
 ### any human that can follow and execute linear steps effectively. 
 
-### **Code Words**
+### **syntax**
 
-### Code words are normal words that mean something in the playbook. For example, code word "Rookie-X" could mean `rookie-experiments` repository. The code words always start with an uppercase letter as you can see in "Rookie-X". That's how you could recognize that you're dealing with a code word. If the code word has multiple words separted by a hyphen, then the new word also starts with an uppercase letter like so: `Prom-X`. There are two types of code words you would see: constant and variable. 
+### The syntax is a term we use to refer to templates or patterns. For example, in English, we say "are they coming?" not "they coming are?". Switching up the words would mean something totally different. Likewise, in programming, we use syntax to define what pattern or template that we want. For example, the syntax to create a Git commit is `git commit -m "some message"`. Here, the syntax is `git commit -m`. "some message" could contain any words.  
+
+## **Code Words**
+
+### Code words are normal words that mean something in the playbook. For example, code word "Rookie-X" could mean `rookie-experiments` repository. The code words always start with an uppercase letter as you can see in "Rookie-X". That's how you could recognize that you're dealing with a code word. If the code word has multiple words separted by a hyphen, then the new word also starts with an uppercase letter like so: `Prom-X`. There are two types of code words you would see: constant and variable. Always refer the `codewords.md` file inside each technology folder. Codewords.md files are usually saved as `folder-name-codewords.md`. For example, take a look at `rookie-codewords.md`. 
 
 ### **Constant Code Words**
 
@@ -65,20 +69,31 @@ call team rookie asap
 
 ### Cat is the code word. `https://www.google.com` is the specific word that you need to fill in everywhere you see "Cat". 
 
+### Syntax: `Constant-Code-Word` => `specific-word`
+### Example: `Knight` => `https://www.behance.com` - the largest design portfolio showcasing website
+
+### Pay attention to the example, that's how the codewords are written in `codewords.md` file inside every folder. `Knight` is the constant code word. `https://www.behance.com` is the specific word that you would put in. The line `the largest design portfolio showcasing website` defines the specific word. 
+
 ### **Variable Code Words**
 
-### Variable code words are code words that vary according to a predefined filler rule. The filler rule tells you that you need to fill some things into the brackets [] to _**make sense of**_ of the code word. So basically you would see a pretty good description of what we need to put into the brackets and you need to put that without the brackets. 
+### Variable code words are code words that vary according to a predefined filler rule. The filler rule tells you that you need to fill some things into the brackets [] to _**make sense of**_ of the code word. 
 
 ### For example, in this variable code word below. 
 
 ### **[Repository-Name]** is the variable code word. 
 
-### **fluentsinc/[Repository-Name]
+### **fluentsinc/[Repository-Name]** is a literal word with variable code word. 
 
-### [repository-name] is the repository name that you need to fill next to "fluentsinc/" without the brackets. For example, if the [repository-name] is `moon`, it should be filled in as `fluentsinc/moon`. 
+### [Repository-Name] is the repository name that you need to fill next to "fluentsinc/" without the brackets. For example, if the [Repository-Name] is `moon`, it should be filled in as `fluentsinc/moon`. 
+
+### Syntax: `literal-word-[Variable-Code-Word] => `literal-word-filler-word`
+### Example: `fluentsinc/[Repository-Name] => `fluentsinc/repo-name`
+### Definition: [Repository-Name] - the name of the repository that you need to fill next to "fluentsinc/". 
+
+### Pay close attention to all the symbols used like =>, -, []. When you refer `codewords.md` file, the symbols follow the same meaning as here. Also, the syntax, example and definition for all codewords are given in the above format so knowing what a code word means would be pretty easy. 
 
 ### **Literal Words**
 
 ### Literal code words are words that need to be filled in literally as it appears. They are always lowercased.  
 
-### For example, `fluentsinc` could be considered a literal code word in the variable code `fluentsinc/[Time]`
+### For example, `fluentsinc` could be considered a literal code word in the variable code word`fluentsinc/[Time]`
