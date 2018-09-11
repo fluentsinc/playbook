@@ -15,9 +15,9 @@ ___
 
 ###  For example, `huddle |Rookie-X|` means "rookie-experiments" should be the experiment repository you need to refer to perform your assignment. Every play call will be based on "rookie-experiments". 
 
-### 2. Sometimes, the "huddle" wants you to _**zero in**_ on a technology inside the "experiments repository". In this scenario, you would get the "technology name" inside the vertical bar next to "experiments repository". This means you need to look at the "experiments repository" first, then you need to look for a folder with the "technology name" and refer this "technology" extensively to execute the plays.
+### 2. Sometimes, the "huddle" wants you to _**zero in**_ on a technology inside the "experiments repository". In this scenario, you would get the "technology name" inside the vertical bar next to "experiments repository". This means you need to look at the "experiments repository" first, then you need to look for a folder with the "technology name" and refer "technology name" extensively to execute the plays.
 
-### For example, `huddle |Prom-X| |bash|` means you need to look at "prometheus-experiments" repository first then take a look at the technology "bash" inside "prometheus-experiments". The directory "prometheus-experiments/bash" is where you need to _**zero in**_ on and execute the plays. 
+### For example, `huddle |Prom-X| |bash|` means you need to look at "prometheus-experiments" repository first then take a look at the technology "bash" inside "prometheus-experiments". The directory "prometheus-experiments/bash" is where you need to _**zero in**_ on and find experiments that help you execute the plays. 
 
 ___
 
