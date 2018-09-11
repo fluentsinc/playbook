@@ -14,13 +14,11 @@ ___
 
 ### The playbook contains loads of **plays** and **play calls** that you would find crucial going forward saving precious time and effort. The playbook keeps all the **plays** and **play calls** categorically in a directory structure. 
 
-### For example, if there's a play or a play call related to "html", you would go into the `playbook/html` folder to see all the plays and play calls in files named "html-plays.md" and "html-playcalls.md" respectively. You would also see "html/code-words.md" file which contains code words specific to "html". Note: the codewords in `base` folder are applicable to every other folder.
+### For example, if there's a play or a play call related to "html", you would go into the `playbook/html` folder to see all the plays and play calls in files named "html-plays.md" and "html-playcalls.md" respectively. You would also see "html/code-words.md" file which contains code words specific to "html". Note: the codewords in `base` folder are applicable to every other technology.
 
-### You would also see a folder named "base" in `playbook`. This is such an important folder for us because all the plays and play calls in the "base" folder are methodically defined to accurately execute the entire playbook. The base plays, play calls and code words are used in combination with the other plays, play calls and code words in the playbook to create 
+### You would also see a folder named "base" in `playbook`. This is such an important folder for us because all the plays and play calls in the "base" folder are methodically defined to accurately execute the entire playbook. The base plays, play calls and code words are used in combination with the other plays, play calls and code words in the playbook to create combinations of play calls that solve real practical problems. 
 
 ### Go through the **common descriptions** section carefully since a very good understanding of these basic descriptions is needed to understand the playbook.  
-
-### The code words in `base` folder are applicable to every other technology. 
 
 ## **Common Descriptions**
 
@@ -53,6 +51,22 @@ call team rookie asap
 
 ### any human that can follow and execute linear steps effectively. 
 
+### **experiment**
+
+### Just as a scientific experiment, the "experiment" is a do-observe-reflect-learn kind of activity. You do some things, you observe what happened, you reflect back on why that happened and you learn why it happened. An "experiment" is an active activity where you are learning some theory or actively doing some steps to learn. 
+
+### **pilot**
+
+### A "pilot" gathers up several experiments into a combined learning activity. Completing each "pilot" makes you master part of a "technology".   
+
+### **technology**
+
+### "technology" refers to software, programming language or software tool that we use. High level abstractions(remembering only useful information) of "technology" is usually found in "experiments-repository".  
+
+### **experiments-repository**
+
+### The "experiments-repository" contains high level abstractions(remembering only useful information)of several high level technologies and its related concepts. 
+
 ### **syntax**
 
 ### The syntax is a term we use to refer to templates or patterns. For example, in English, we say "are they coming?" not "they coming are?". Switching up the words would mean something totally different. Likewise, in programming, we use syntax to define what pattern or template that we want. For example, the syntax to create a Git commit is `git commit -m "some message"`. Here, the syntax is `git commit -m`. "some message" could contain any words.  
@@ -74,6 +88,16 @@ call team rookie asap
 
 ### Pay attention to the example, that's how the codewords are written in `codewords.md` file inside every folder. `Knight` is the constant code word. `https://www.behance.com` is the specific word that you would put in. The line `the largest design portfolio showcasing website` defines the specific word. 
 
+### **Literal Words**
+
+### Literal words are words that need to be filled in _**literally**_(exact words) as it appears. They are always lowercased.  
+
+### For example, `fluentsinc/` could be considered a literal code word in the variable code word `fluentsinc/[Time]`
+
+### Literal words are also used to define a lowercased word that is short for verbose definitions.
+
+### For example, `fluentsinc` => `refers to an organization on Github named "fluentsinc". Repositories on this organization are referred to as a directory like so: **fluentsinc/playbook** to mean the "playbook" repository in "fluentsinc" organization`
+
 ### **Variable Code Words**
 
 ### Variable code words are code words that vary according to a predefined filler rule. The filler rule tells you that you need to fill some things into the brackets [] to _**make sense of**_ of the code word. 
@@ -86,14 +110,9 @@ call team rookie asap
 
 ### [Repository-Name] is the repository name that you need to fill next to "fluentsinc/" without the brackets. For example, if the [Repository-Name] is `moon`, it should be filled in as `fluentsinc/moon`. 
 
-### Syntax: `literal-word-[Variable-Code-Word] => `literal-word-filler-word`
-### Example: `fluentsinc/[Repository-Name] => `fluentsinc/repo-name`
-### Definition: [Repository-Name] - the name of the repository that you need to fill next to "fluentsinc/". 
+### **syntax:** `literal-word-[Variable-Code-Word]` => `literal-word-filler-word`
+### **example:** `fluentsinc/[Repository-Name]` => `fluentsinc/repo-name`
+### **definition:** `[Repository-Name]` - the name of the repository that you need to fill next to "fluentsinc/". 
 
-### Pay close attention to all the symbols used like =>, -, []. When you refer `codewords.md` file, the symbols follow the same meaning as here. Also, the syntax, example and definition for all codewords are given in the above format so knowing what a code word means would be pretty easy. 
+### Pay close attention to all the symbols used like =>, - and []. When you refer `codewords.md` file, the symbols follow the same meaning as you see here. `=>` symbol here refers to the change that happens to the word on the left of it. `-` tells us that whatever comes afer the hyphen is a definition of the word left of the hyphen. Also, the syntax, example and definition for all codewords are given in the above format so that knowing what a code word means would be pretty easy.  
 
-### **Literal Words**
-
-### Literal code words are words that need to be filled in literally as it appears. They are always lowercased.  
-
-### For example, `fluentsinc` could be considered a literal code word in the variable code word`fluentsinc/[Time]`
