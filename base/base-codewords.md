@@ -21,13 +21,13 @@ ___
 
 ### **[all-pilots]**
 ### **syntax:** `[all-pilots]` => `substitute all pilots in a technology`
-### **definition:** `[all-pilots]` - `refers to all the pilots in a "technology" inside "experiments-repository"`
+### **definition:** `[all-pilots]` - refers to all the pilots in a "technology" inside "experiments-repository"
 
 ___
 
 ### **[all-x]**
 ### **syntax:** `[all-x]` => `all the experiments in a pilot`
-### **definition:** `[all-x]` - `refers to all the experiments in a pilot` 
+### **definition:** `[all-x]` - refers to all the experiments in a pilot 
 
 ___
 
@@ -36,7 +36,7 @@ ___
 ___
 
 ### **fluentsinc**
-### **definition:** `fluentsinc` - `refers to an organization on Github named "fluentsinc". Repositories on this organization are referred to as a directory like so: **fluentsinc/playbook** to mean the "playbook" repository in "fluentsinc" organization`
+### **definition:** `fluentsinc` - refers to an organization on Github named "fluentsinc". Repositories on this organization are referred to as a directory like so: **fluentsinc/playbook** to mean the "playbook" repository in "fluentsinc" organization.
 
 ___
 

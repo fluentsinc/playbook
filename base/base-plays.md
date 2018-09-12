@@ -21,22 +21,24 @@ ___
 
 ___
 
-### **pilot |number|**
+### **pilot |pilot-number|**
 
 ### "pilot" play followed by two vertical bars ( || ) tells you to execute the below linear steps:
 
-### 1. When you get a "pilot" play, you need to go look at the pilot of the "experiments-repository" mentioned somewhere in the play call. The "experiments" repository could've been mentioned in earlier play calls. 
+### 1. When you get assigned a "pilot" play, you need to find the pilot with the **pilot-number** given inside the vertical bars. The "technology" and "experiments-repository" of the pilot should be found from the "huddle" play. 
+
+### For example, let's say, the "huddle" play had `Rookie-X` as `experiments-repository` and `git` as `technology`. Then, the play `pilot |23|` tells you to find `pilot-23` of Git from `rookie-experiments` repository. 
+
+### 2. Sometimes, the **pilot-number** might be a variable code word in a play. Just substitute the specific filler word for the variable code word in these instances. 
+
+### For example, `pilot |[all-pilots]|` is a "pilot" play where you need to put the specific filler word that `[all-pilots]` defines as the pilot-number. 
+
 ___
 
-### **ready**  
+### **storm**
 
-### "ready" play tells you to execute the below linear steps. 
+### The "storm" play is usually called once you've found the pilot of a particular technology in an experiments-repository. This play tells you to brainstorm all the experiments in the pilot. 
 
-### 1. "ready" play after a "huddle" play tells you to do necessary steps so that you can refer to "experiment repository" consistently and easily. Those necessary steps are given below. If the play calls you see below doesn't make sense, keep going forward. It'll make sense when grasp the whole `playbook`. 
 
-### 2. `bash-x git clone |rookie-x|`
-
-### 3. `vs-code space |rookie-x| name->self`
-___
 
 
