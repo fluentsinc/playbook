@@ -73,11 +73,11 @@ call team rookie asap
 
 ### **pilot-number**
 
-### The **pilot-number** is a number written next to "pilot-". It helps you accurately identify the pilots inside a **technology**. For example, you would usually find the pilots by the number next to it like so: `pilot-01` to mean the first pilot in a technology or `pilot-10` to mean the tenth pilot in a technology. 
+### The **pilot-number** denotes a number written next to pilots in the **technology** of an **experiments-repository**. It helps you accurately identify the pilots inside a **technology**. For example, you would usually find the pilots by the number next to it like so: `pilot-01` to mean the first pilot in a technology or `pilot-10` to mean the tenth pilot in a technology. See the "technology" folders inside "experiments-repositories" like `Rookie-X` and `Prom-X` to _**get a feel for**_ them. 
 
-### *experiment-number**
+### **experiment-number**
 
-### The "experiment-number** is a number 
+### The "experiment-number" denotes the numbered experiments inside each pilots. Sometimes the play caller might want you to focus on a specific "experiment-number" inside a pilot. Take a look at any pilot to see the "experiment-number" shown below the "experiments" heading. 
 
 ### **syntax**
 
@@ -86,6 +86,8 @@ call team rookie asap
 ## **Code Words**
 
 ### Code words are normal words that mean something in the playbook. For example, code word "Rookie-X" could mean `rookie-experiments` repository. The code words always start with an uppercase letter as you can see in "Rookie-X". That's how you could recognize that you're dealing with a code word. If the code word has multiple words separted by a hyphen, then the new word also starts with an uppercase letter like so: `Prom-X`. There are two types of code words you would see: constant and variable. Always refer the `codewords.md` file inside each technology folder. Codewords.md files are usually saved as `folder-name-codewords.md`. For example, take a look at `rookie-codewords.md`. 
+
+___
 
 ### **Constant Code Words**
 
