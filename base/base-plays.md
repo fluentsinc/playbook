@@ -43,15 +43,19 @@ ___
 
 ### 1. The "xp" play is called right after the "pilot" play when the play caller wants to specifically want you to focus on a particular experiment-number. If the "xp" play was not called, you should just assume that you need to focus on all the experiments in that pilot. 
 
-### For example, `pilot |22| exp |1|` tells that you need to look at experiment number 2 in pilot 22. 
+### For example, `pilot |22| xp |1|` tells that you need to look at experiment number 2 in pilot 22. 
 
 ### 2. The play caller could also call multiple experiment numbers in a single play or play call, the experiment numbers would be separated by a space in such instances. 
 
 ### For example, `pilot |09| xp |1 2 3|` tells that you need to first look at pilot-09. Then, focus on experiment numbers 1, 2, and 3.  
 
+___
+
 ### **grasp**
 
-### The "grasp" play is usually called once you've found the **pilot** of a **technology** in an **experiments-repository**. This play tells you to grasp valuable information out of all the experiments in the pilot. 
+### The "grasp" play is usually called once you've found the **pilot** of a **technology** in an **experiments-repository**. This play tells you to grasp valuable information out of all the experiments in the pilot. In other words, you need to go through all the experiments in the pilot and gain valuable information from the experiments. 
+
+___
 
 
 
