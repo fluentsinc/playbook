@@ -47,6 +47,10 @@ call team rookie asap
 
 ### Going forward, all the programming tasks or assignments that you get will be play calls. 
 
+### **play caller**
+
+### the one who calls the **play calls**. 
+
 ### **player**
 
 ### any human that can follow and execute linear steps effectively. 
@@ -57,15 +61,23 @@ call team rookie asap
 
 ### **pilot**
 
-### A "pilot" gathers up several experiments into a combined learning activity. Completing each "pilot" makes you master part of a "technology".   
+### A "pilot" gathers up several experiments into a combined learning activity. Completing each "pilot" makes you master a "technology".     
 
 ### **technology**
 
-### "technology" refers to software, programming language or software tool that we use. High level abstractions(remembering only useful information) of "technology" is usually found in "experiments-repository".  
+### "technology" refers to a programming language or a software. High level abstractions(remembering only useful information) of "technology" is usually found as a folder in "experiments-repository". All the folders inside the "experiments-repository" are technologies. Inside each technology, you will find lots of pilots that strives to make you master the technology.
 
 ### **experiments-repository**
 
 ### The "experiments-repository" contains high level abstractions(remembering only useful information)of several high level technologies and its related concepts. 
+
+### **pilot-number**
+
+### The **pilot-number** is a number written next to "pilot-". It helps you accurately identify the pilots inside a **technology**. For example, you would usually find the pilots by the number next to it like so: `pilot-01` to mean the first pilot in a technology or `pilot-10` to mean the tenth pilot in a technology. 
+
+### *experiment-number**
+
+### The "experiment-number** is a number 
 
 ### **syntax**
 

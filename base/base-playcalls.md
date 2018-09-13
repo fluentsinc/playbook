@@ -4,7 +4,7 @@ ___
 
 ### **electrical storm**
 
-### `huddle |Rookie-X| |rookie training camp| storm` 
+### `huddle |Rookie-X| |rookie-training-camp| grasp` 
 
 ___
 
