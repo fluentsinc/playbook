@@ -45,7 +45,9 @@ ___
 
 ### For example, `pilot |22| exp |1|` tells that you need to look at experiment number 2 in pilot 22. 
 
-### 
+### 2. The play caller could also call multiple experiment numbers in a single play or play call, the experiment numbers would be separated by a space in such instances. 
+
+### For example, `pilot |09| xp |1 2 3|` tells that you need to first look at pilot-09. Then, focus on experiment numbers 1, 2, and 3.  
 
 ### **grasp**
 
