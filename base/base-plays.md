@@ -58,5 +58,17 @@ ___
 ___
 
 
+### **await....recess**
 
+### 1. The "await...recess** play signals that the play call you just received extends to multiple lines. In other words, when you see "await", you should assume that the plays are extended to multiple lines and the play call is connected until you see the word "recess". The ellipsis `...` refers to all the plays in between "await" and "recess". 
+
+### For example, in an imaginary driving car play call named "drift". Let's say the first play was:
+``` 
+get fuel await
+fill tank until full recess
+start engine and drive
+```
+
+### In the above example, `get fuel` play is connected to `fill tank until full` play. "await" next to the first play signals that the play is extended and connected with "plays" down the line until we call "recess" which breaks the connection. After the "recess" play, the other plays below it are not no longer connected and the plays below "recess" are separate plays with no connection to the play before "recess". 
+___
 

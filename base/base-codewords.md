@@ -19,15 +19,15 @@ ___
 ## **Variable Code Words**
 ___
 
-### **[all-pilots]**
-### **syntax:** `[all-pilots]` => `substitute all pilots in a technology`
-### **definition:** `[all-pilots]` - refers to all the pilots in a "technology" inside "experiments-repository"
+### **:all-pilots**
+### **syntax:** `:all-pilots` => `substitute all pilots in a technology`
+### **definition:** `:all-pilots` - refers to all the pilots in a "technology" inside "experiments-repository"
 
 ___
 
-### **[all-x]**
-### **syntax:** `[all-x]` => `all the experiments in a pilot`
-### **definition:** `[all-x]` - refers to all the experiments in a pilot 
+### **:all-x**
+### **syntax:** `:all-x` => `all the experiments in a pilot`
+### **definition:** `:all-x` - refers to all the experiments in a pilot 
 
 ___
 

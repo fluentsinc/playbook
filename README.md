@@ -114,19 +114,19 @@ ___
 
 ### **Variable Code Words**
 
-### Variable code words are code words that vary according to a predefined filler rule. The filler rule tells you that you need to fill some things into the brackets [] to _**make sense of**_ of the code word. 
+### Variable code words are code words that vary according to a predefined filler rule. The filler rule tells you what specific word you need to substitute every time you see the variable code word next to a colon (:). The specific word for the variable code word lets you _**make sense of**_ the variable code word and use it. 
 
 ### For example, in this variable code word below. 
 
-### **[Repository-Name]** is the variable code word. 
+### **:repository-name** is the variable code word. That colon before the variable code word will let you easily identify variable code words. Once you see that ":" and a word next to it, you should recognize that you're _**dealing with**_ a variable code word. 
 
-### **fluentsinc/[Repository-Name]** is a literal word with variable code word. 
+### **fluentsinc/:repository-name** is a literal word with variable code word. 
 
-### [Repository-Name] is the repository name that you need to fill next to "fluentsinc/" without the brackets. For example, if the [Repository-Name] is `moon`, it should be filled in as `fluentsinc/moon`. 
+### :repository-name is the repository name that you need to fill next to "fluentsinc/". For example, if the :repository-name is `speed` according to the filler rule, then you should fill the specific word in as `fluentsinc/speed`. 
 
-### **syntax:** `literal-word-[Variable-Code-Word]` => `literal-word-filler-word`
-### **example:** `fluentsinc/[Repository-Name]` => `fluentsinc/repo-name`
-### **definition:** `[Repository-Name]` - the name of the repository that you need to fill next to "fluentsinc/". 
+### **syntax:** `literal-word-:variable-code-word]` => `literal-word-filler-word`
+### **example:** `fluentsinc/:repository-name` => `fluentsinc/repo-name`
+### **definition:** `:repository-name` - the name of the repository that you need to fill next to "fluentsinc/". 
 
-### Pay close attention to all the symbols used like =>, - and []. When you refer `codewords.md` file, the symbols follow the same meaning as you see here. `=>` symbol here refers to the change that happens to the word on the left of it. `-` tells us that whatever comes afer the hyphen is a definition of the word left of the hyphen. Also, the syntax, example and definition for all codewords are given in the above format so that knowing what a code word means would be pretty easy.  
+### Pay close attention to all the symbols used like =>, - and :. When you refer `codewords.md` file, the symbols follow the same meaning as you see here. `=>` symbol here refers to the change that happens to the word on the left of it. `-` tells us that whatever comes afer the hyphen is a definition of the word left of the hyphen. Also, the syntax, example and definition for all codewords are given in the above format so that knowing what a code word means would be pretty easy.  
 

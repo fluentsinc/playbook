@@ -4,10 +4,12 @@ ___
 
 ## **Variable Code Words**
 
-### **[Repo-Name]**
+### **:repo-name**
 
-### [Repo-Name] is the name that you want to give to your repository. 
+### :repo-name is the name that you want to give to your repository. 
 
-### [Repo-Name] => Repository name that you want to give. 
+### :repo-Name => Repository name that you want to give. 
 
 ___
+
+## **Constant Code Words**
