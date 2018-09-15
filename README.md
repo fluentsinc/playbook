@@ -71,10 +71,6 @@ call team rookie asap
 
 ### The "experiments-repository" contains high level abstractions(remembering only useful information)of several high level technologies and its related concepts. 
 
-### **playground-repository**
-
-### The "playground repository" is a repository you would create on your Github profile that lets you play around with the concepts in experiments repository. This repository should be an exact mirror of an experiments repository that you're working on. For example, if you're assigned the "prometheus-experiments" repository to  
-
 ### **pilot-number**
 
 ### The **pilot-number** denotes a number written next to pilots in the **technology** of an **experiments-repository**. It helps you accurately identify the pilots inside a **technology**. For example, you would usually find the pilots by the number next to it like so: `pilot-01` to mean the first pilot in a technology or `pilot-10` to mean the tenth pilot in a technology. See the "technology" folders inside "experiments-repositories" like `Rookie-X` and `Prom-X` to _**get a feel for**_ them. 
@@ -86,6 +82,14 @@ call team rookie asap
 ### **syntax**
 
 ### The syntax is a term we use to refer to templates or patterns. For example, in English, we say "are they coming?" not "they coming are?". Switching up the words would mean something totally different. Likewise, in programming, we use syntax to define what pattern or template that we want. For example, the syntax to create a Git commit is `git commit -m "some message"`. Here, the syntax is `git commit -m`. "some message" could contain any words.  
+
+### **playground-repository**
+
+### The "playground repository" is a repository you would create on your Github profile that lets you play around with the concepts in experiments repository. This repository should be an exact mirror of an experiments repository that you're working on. For example, if you're assigned the "prometheus-experiments" repository, technology "bash" and pilot "pilot-01", you should create a folder named "bash" inside the "playground-repository". Inside "bash" folder, create another folder named "pilot-01", you should play around with the concepts in "prometheus-experiments/bash/pilot-01" inside this "pilot-01" folder you had created in "playground-repository". Also, create a "master.md" file inside mirrored folders in "playground repository". 
+
+### **master.md**
+
+### When you're learning from "experiments-repository", there might come a time when a programming task might be assigned to you in experiments. The task might tell you to put something into "master.md" so that the play caller could know that you had in fact executed the play and you're putting everything you're learning into action. 
 
 ## **Code Words**
 
