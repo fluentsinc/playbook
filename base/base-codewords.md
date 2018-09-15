@@ -31,6 +31,25 @@ ___
 
 ___
 
+### **:file-name**
+### **syntax:** `:file-name` => `file name`
+### **definition:** `:file-name` - refers to the file name. 
+___
+
+### **:folder-name**
+### **syntax:** `:folder-name` => `folder name`
+### **definition:** `:folder-name` - refers to the folder name. 
+___
+
+### **:x-repo**
+### **syntax:** `:x-repo` => `experiments repository`
+### **definition:** `:x-repo` - refers to the experiment repository 
+___
+
+### **:play-repo**
+### **syntax:** `:play-repo` => `playground repository`
+### **definition:** `:play-repo` - refers to the playground repository on your Github profile. 
+
 ## **Literal Words**
 
 ___

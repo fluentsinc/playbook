@@ -71,6 +71,10 @@ call team rookie asap
 
 ### The "experiments-repository" contains high level abstractions(remembering only useful information)of several high level technologies and its related concepts. 
 
+### **playground-repository**
+
+### The "playground repository" is a repository you would create on your Github profile that lets you play around with the concepts in experiments repository. This repository should be an exact mirror of an experiments repository that you're working on. For example, if you're assigned the "prometheus-experiments" repository to  
+
 ### **pilot-number**
 
 ### The **pilot-number** denotes a number written next to pilots in the **technology** of an **experiments-repository**. It helps you accurately identify the pilots inside a **technology**. For example, you would usually find the pilots by the number next to it like so: `pilot-01` to mean the first pilot in a technology or `pilot-10` to mean the tenth pilot in a technology. See the "technology" folders inside "experiments-repositories" like `Rookie-X` and `Prom-X` to _**get a feel for**_ them. 

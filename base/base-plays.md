@@ -4,7 +4,7 @@ ___
 
 ### **rookie-play** 
 
-### "rookie" play tells you that you need to follow `playbook/rookie` and `fluentsinc/rookie-experiments` carefully. Since you're a rookie and have not mastered `prometheus-experiments/git` experiments, you need to follow `playbook/rookie` and particularly `fluentsinc/rookie-experiments/git` focusedly because a simple lack of attention to detail on your part can and will jeopardize the whole team's progress. You will need to be cautious and attentive when you get this play. 
+### "rookie" play tells you that you need to follow `playbook/rookie` and `fluentsinc/rookie-experiments` carefully. Since you're a rookie and have not mastered `prometheus-experiments/git` experiments, you need to follow `playbook/rookie` and particularly `fluentsinc/rookie-experiments/git` focusedly because a simple lack of attention to detail on your part can and will jeopardize the whole team's progress. You will need to be cautious and attentive when you get this play.
 ___ 
 
 ### **huddle |experiments-repository-name| |technology-name|**  
@@ -57,6 +57,27 @@ ___
 
 ___
 
+
+### **dawn |:file-name|**
+
+### The "dawn" play tells to create a file with the name given in the variable code word ":file-name". 
+___
+
+### **megadawn |:folder-name|**
+
+### The "megadawn" play tells you to create a folder with the name given in the variable code word ":folder-name". 
+
+___
+
+### **grid-iron |:folder-name| |:file-name|**
+
+### The "grid-iron" play tells you to execute the linear steps _**laid out**_ down below:
+
+### 1. The "grid-ron" play gives you two variable code words. You need to create a folder first with the ":folder-name" and inside the folder you need to create a file with the ":file-name". 
+
+### 2. When the play caller wants you to create multiple files inside the folder, the file names will be separated by a space. For example, `grid-iron |alert| |green.md blue.md brown.md|`. This play tells you to create a folder named "alert". And then, inside "alert" folder, create three files named "green.md", "blue.md" and "brown.md". 
+
+___
 
 ### **await...recess**
 
