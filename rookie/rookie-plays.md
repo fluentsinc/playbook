@@ -20,7 +20,11 @@ ___
 
 ___
 
+### **rookie-scriptx terminal**
 
+### When you're assigned this play, you need to enter the commands into the integrated terminal in Visual Code and press Enter.
+
+___
 
 
 

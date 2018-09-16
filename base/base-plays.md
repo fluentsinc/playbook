@@ -101,6 +101,15 @@ start engine and drive
 ### `pilot-x |:pilot-n| recess`
 ### `:pilot-n => |3| pilot-x |:pilot-n|`
 
-The idea is that, the variable code word defined before "await" should be used in all plays before the "recesss" play. In the above example, after "recess" play you can see the new definition for "pilot-n" which should be the definition you should've used in the last play. 
+### The idea is that, the variable code word defined before "await" should be used in all plays before the "recesss" play. In the above example, after "recess" play you can see the new definition for "pilot-n" which should be the definition you should've used in the last play. 
 ___
 
+### **playground tree |:x-repo| |:play-repo|**
+
+### The "playground tree" play tells you to execute these linear steps: 
+
+### 1. The ":x-repo" you get is the experiments-repository you would be learning from. And the "play-repo" is the playground repository you would play around with. 
+
+### 2. As you learn from the ":x-repo", you need to play around with the concepts inside ":play-repo". The folder where you play around with in ":play-repo" should match the folder structure in ":x-repo". For example, if you're learning from `prometheus-experiments/bash/pilot-01-basics`, then you need to play around with the concepts in `:play-repo/bash/pilot-01`.
+
+___ 

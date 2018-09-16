@@ -10,12 +10,6 @@ ___
 
 ___
 
-### **spy game |:x-repo| |**
-
-### The "spy game" play tells you to execute the linear steps laid down below:
-
-### 1. The 
-___
 
 ### **fresh |:repo-name|**
 
@@ -25,24 +19,53 @@ ___
 
 ### `rookie-git`
 
-### create a new Git repo with `:repo-name` as the Git repository name. If 
+### create a new Git repo with `:repo-name` as the Git repository name. 
 
 ### `config alert recess` 
 ___
 
-### **shadow |:repo-name|**
+### **initial push github**
 
-### `fresh |:repo-name| await`
+### This play call tells you to execute the linear steps laid down below:
 
-### The "shadow" play is usually called after the "huddle' play. In the repo you had just created, actively execute the pilots assigned to you in "experiments-repository" keeping the directory structure same as `:experiments-repository`. In other words, if the "experiments-repository" is "prometheus-experiments". And if the "huddle" play focuses on technology folders named "git" and "bash", then the repo you had created should contain the same folders "git" and "bash".  
+### 1. add a file named "README.md". 
+
+### 1. create an initial commit with the message "initial commit". 
+s
+### 2. push to your Github profile. 
 
 ___
 
+### **push commits github** 
 
-### **master |:repo-name|**
+### This play call tells you to execute the linear steps laid down below:
 
-### `shadow |:repo-name|`
+### 1. create commits with the appropriate commit message. 
 
-### By now, you should've created technology and pilot folders if the huddle play focuses on a particular technology and pilot. For each pilot in "experiments-repository", you should create 
+### 2. push the commits to Github. 
+
+___
+
+### **rookie-markdown mirror |:play-repo|**
+
+### This play call tells you to execute the linear steps laid down below: 
+
+### l. `playground tree |:x-repo| |:play-repo|
+
+### 2. Create a "master.md" file inside the appropriate folder in ":play-repo" following the `playground tree` play. Enter whatever each pilot in`:x-repo` tells you to enter into "master.md" file in the appropriate folder of ":play-repo" following `playground tree` play.
+
+### 3. `push commits github`
+
+___
+
+### **rookie-scriptx mirror |:play-repo|**
+
+### This play call tells you to execute the linear steps laid down below: 
+
+### 1. `playground tree |:x-repo| |:play-repo|
+
+### 2. Create a "script.sh" file inside the appropriate folder in ":play-repo" following the `playground tree` play. As experiments in ":x-repo" tell you to execute a command, enter the commands in separate lines into "script.sh" file in the appropriate folder of ":play-repo" following `playground tree` play.
+
+### 3. `push commits github`
 
 ___
