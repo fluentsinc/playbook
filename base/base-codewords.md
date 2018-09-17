@@ -50,6 +50,10 @@ ___
 ### **syntax:** `:play-repo` => `playground repository`
 ### **definition:** `:play-repo` - refers to the playground repository on your Github profile. 
 
+### **:repo-name**
+### **syntax:** `:repo-name` => `Git repository name`
+### **definition:** `:repo-name` - refers to the name given to a Git repository
+
 ## **Literal Words**
 
 ___
